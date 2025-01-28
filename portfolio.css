@@ -23,7 +23,7 @@ nav{
     justify-content: space-between;
     width: 100%;
 }.navbar-brand a{
-    color: black;
+    color: white;
 }
 .nav-Name-Text{
     font-size: 1.5em;
@@ -138,8 +138,8 @@ max-width: 100%;
     margin-top: -90px;
 }
 a{
-    color:#00666c ;
+    color:#ffffff ;
 }
 a:visited{
-    color:#00575c;
+    color:#33FFFF;
 }
