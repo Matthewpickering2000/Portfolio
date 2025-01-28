@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Pages By Pickering</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <button onclick="topView()" id="topBtn" title="Go To Top">↑</button>
+    <nav>
+        <div class="navbar-brand" id="navbar-brand">
+            <a class="nav-Name-Text" id="nav-Name">Matthew Pickering</a>
+        <div class="navbar-links">
+            <a class="nav-link" href="#intro-contianer" id="nav-home">Home</a>
+            <a class="nav-link" href="#about-Me-Container" id="nav-about">About Me</a>
+            <a class="nav-link" href="#my-Work" id="nav-projects">My Work</a>
+            <a class="nav-link" href="#contact-Me-Container" 
+            id="nav-contact">Contact Me</a>
+        </div>
+        </div>
+    </nav>
+    <section class="intro-container" id="intro-container">
+        <h5 id="intro">Hi my name is, </h5>
+        <h2 id="intro-name">Matthew Pickering.</h2>
+        <h4 id="intro-continued">Let's bring your ideas for your website to life!</h4>
+        <h4 id="intro-complete">I am a Software Developer who doesnt mind learning something new to accomplish our goals!</h4>
+    </section>
+    <section id="about-Me-Container">
+        <h1>About Me</h1>
+        <p id="about-Me-Text">I am a Software Developer. Building, modifying, and maintaining websites is like one big, fun puzzle for me. I get to dive in and piece together existing work or start from scratch to bring websites to life! I'm always looking for ways to expand my knowledge. Maybe your project could be next! Take a look at my previous work and the skills I have gathered so far!</p>
+        <div class="my-Skills">
+            <div class="my-Skills-Skill">HTML</div>
+            <div class="my-Skills-Skill">Javascript</div>
+            <div class="my-Skills-Skill">CSS</div>
+            <div class="my-Skills-Skill">GitHub</div>
+            <div class="my-Skills-Skill">OOP</div>
+            <div class="my-Skills-Skill">DOM Manipulation</div>
+            <div class="my-Skills-Skill">Jasmine</div>
+            <div class="my-Skills-Skill">JQuery</div>
+            <!-- <div class="my-Skills-Skill">React</div> -->
+            <!-- <div class="my-Skills-Skill">JSON</div> -->
+        </div>
+    </section>
+    <div class="resume-Container">
+        <a id="resume" href="https://docs.google.com/document/d/15NzYXbnft5tiif1q1z4fDkcAJlwmdHD87m39sEvD7a8/edit?usp=sharing">My Resume</a>
+    </div>
+    <section id="my-Work">
+        <h1>My Work</h1>
+        <p id="my-Work-Text">Here are some of the projects I've worked on!</p>
+    <div class="box">
+        <div class="project">
+            <a href="https://matthewpickering2000.github.io/Meme_Generator_2.0/" target="_blank">
+                <img class="project-Thumbnail" src="img/Meme_Generator_2.0.png" alt="Meme Generator Thumbnail">
+            </a>
+            <div class="project-Details">
+            <p>This is my Meme Generator project where I designed my own game to play.</p>
+            </div>
+        </div>
+        <div class="project">
+            <a href="https://matthewpickering2000.github.io/Connect_Four/" target="_blank">
+                <img class="project-Thumbnail" src="img/Connect_Four.png" alt="Connect Four Thumbnail">
+            </a>
+            <div class="project-Details">
+            <p>This is my Connect Four project where I designed my own game to play.</p>
+            </div>
+        </div>
+        <div class="project">
+            <a href="https://matthewpickering2000.github.io/Fruit_Search/" target="_blank">
+                <img class="project-Thumbnail" src="img/Fruit_Search.png" alt="Memory Game Thumbnail">
+            </a>
+            <div class="project-Details">
+            <p>This is my Fruit Search project where I designed my own game to play using a set list of fruits.</p>
+            </div>
+        </div>
+        <div class="project">
+            <a href="https://matthewpickering2000.github.io/Memory_Game/" target="_blank">
+                <img class="project-Thumbnail" src="img/Memory_Game.png" alt="Fruit Search Thumbnail">
+            </a>
+            <div class="project-Details">
+            <p>This is my Memory Game project where I designed my own game to play.</p>
+            </div>
+        </div>
+           <div class="project">
+        <a href="https://matthewpickering2000.github.io/Jeopardy/" target="_blank">
+            <img class="project-Thumbnail" src="img/Jeopardy.png" alt="Jeopardy Thumbnail">
+            </a>
+            <div class="project-Details">
+            <p>This is my Jeopardy Game project where I designed my own game using an existing api.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="contact-Me-Container">
+        <H3 id="contat-Text">Encountering issues with your website or have new ideas you'd like to implement? Reach out to me, and together we can brainstorm and bring your vision to life.</H3>
+        <h5 id="contact-Email" onclick="copyEmail()">Email: Matthewpickering2000@gmail.com</h5>
+    </section>
+    <script src="portfolio.js"></script>
+</body>
+</html>
