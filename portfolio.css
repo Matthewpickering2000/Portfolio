@@ -1,6 +1,6 @@
 body{
     background-size: cover;
-    background-color: rgb(206, 186, 159);
+    background-color: #d9fdfa;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,8 +8,8 @@ body{
     margin: 0;
 }
 nav{
-    background-color: rgb(9, 90, 2);
-    box-shadow:0 5px 6px rgb(6, 74, 3) ;
+    background-color: #00666c;
+    box-shadow:0 5px 6px #00575c ;
     height: 65px;
     display: flex;
     align-items: center;
@@ -69,7 +69,7 @@ section{
     outline: none;
     cursor: pointer;
     color: black;
-    background-color: rgb(9, 90, 2);
+    background-color: #00666c;
     font-size: larger;
     z-index: 99;
     
@@ -85,7 +85,7 @@ section{
     align-items: center;
 }
 .my-Skills-Skill{
-    background-color: rgb(14, 14, 14);
+    background-color: #00CCCC;
     color: white;
     border-radius: 20px;
     padding: 20px;
@@ -114,7 +114,7 @@ height:0;
     background: transparent;
 }
 .box::-webkit-scrollbar-thumb{
-background: rgb(9, 90, 2);
+background: #00666c;
 height: 25px;
 border-radius: 10px;
 }
@@ -138,8 +138,8 @@ max-width: 100%;
     margin-top: -90px;
 }
 a{
-    color:rgb(9, 90, 2) ;
+    color:#00666c ;
 }
 a:visited{
-    color:rgb(5, 47, 1) ;
+    color:#00575c;
 }
