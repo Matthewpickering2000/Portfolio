@@ -1,7 +1,7 @@
 body{
     background-size: cover;
-    color: #00666c;
-    background-color: #d9fdfa;
+    color: black;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,15 +15,17 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 30px;
-    width: 98vw;
+    /* border-radius: 30px; */
+    width: 100%;
     padding: 0 10px;
 }
 .navbar-brand{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-}.navbar-brand a{
+    width: 95%;
+    padding-left: 20px;
+}
+.navbar-brand a{
     color: white;
 }
 .nav-Name-Text{
@@ -86,7 +88,7 @@ section{
     align-items: center;
 }
 .my-Skills-Skill{
-    background-color: #00CCCC;
+    background-color: #00666c;
     color: white;
     border-radius: 20px;
     padding: 20px;
@@ -142,5 +144,5 @@ a{
     color:#ffffff ;
 }
 a:visited{
-    color:#33FFFF;
+    color:#0c0d0d;
 }
